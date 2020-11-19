@@ -66,6 +66,9 @@ paypal.Buttons({
 	 margin-right: 25px;
 	 text-align: justify;
 }
+#terms{
+    text-align:center;
+}
  h1 {
   text-transform: uppercase;
 	 font-size: 1.2em;
