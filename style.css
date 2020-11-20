@@ -326,6 +326,9 @@ width: 100%;
 margin-top:50px;
 
 }
+ul {
+	margin:20px;
+}
 @media(max-width: 10000px) 
 { 
   .foot{
