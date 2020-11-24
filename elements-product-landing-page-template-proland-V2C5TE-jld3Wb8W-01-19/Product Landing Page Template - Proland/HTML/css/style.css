@@ -1939,6 +1939,9 @@ header.video-bg {
     max-width: 200px;
   }
 }
+.watch_img{
+    max-width:100%;
+}
 
 .the-watch-features {
   padding-top: 63px;
