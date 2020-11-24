@@ -1,18 +1,6 @@
 @charset "UTF-8";
 /* ------------------------------------------------
 
-Page	: Proland CSS
-Version : 1.0
-Author  : Surjith S M
-URI     : http://themeforest.net/user/surjithctly
-
-Copyright © All rights Reserved
-Surjith S M / @surjithctly
-
--------------------------------------------------- */
-/*=====================================================================
-
-
 @Default Styles
 
 Table of Content:
@@ -85,11 +73,13 @@ h2,
 p {
   font: 300 14px/26px "Poppins", sans-serif;
   color: #82898f;
+   font-display: swap;
 }
 
 li {
   font: 300 14px/26px "Poppins", sans-serif;
   color: #82898f;
+   font-display: swap;
 }
 
 /*============= BOXED Patterns =============*/
@@ -164,6 +154,7 @@ li {
 .btn {
   border-radius: 30px;
   font: 300 12px/26px "Poppins", sans-serif;
+   font-display: swap;
   padding: 2px 33px 0;
   color: #b4bcc3;
   border-color: #e1e4e7;
@@ -186,6 +177,7 @@ li {
   padding: 0 85px;
   border-radius: 60px;
   font: 500 27px/72px "Poppins", sans-serif;
+   font-display: swap;
   margin-bottom: 77px;
 }
 
@@ -215,6 +207,7 @@ li {
   padding: 0 45px;
   border-radius: 60px;
   font: 500 22px/65px "Poppins", sans-serif;
+   font-display: swap;
   margin-bottom: 77px;
 }
 
@@ -252,6 +245,7 @@ li {
   padding: 0 45px;
   border-radius: 60px;
   font: 500 22px/65px "Poppins", sans-serif;
+   font-display: swap;
   margin-bottom: 77px;
 }
 
@@ -281,6 +275,7 @@ li {
 .btn-warning {
   text-transform: uppercase;
   font: 500 16px/40px "Poppins", sans-serif;
+   font-display: swap;
   padding: 0 35px;
   border-radius: 30px;
   color: #fff;
@@ -296,6 +291,7 @@ li {
   padding: 0 85px;
   border-radius: 60px;
   font: 500 27px/72px "Poppins", sans-serif;
+   font-display: swap;
   margin-bottom: 77px;
 }
 
@@ -322,6 +318,7 @@ li {
 
 .btn-link {
   font: 300 15px/14px "Poppins", sans-serif;
+   font-display: swap;
   border-bottom: 1px solid;
   text-decoration: none;
   color: #007eff;
@@ -330,6 +327,7 @@ li {
 
 .btn-block {
   font: 600 19px/63px "Poppins", sans-serif;
+   font-display: swap;
   text-transform: uppercase;
   border: none;
   transition: all 300ms linear 0s;
@@ -349,6 +347,7 @@ li {
 @media (max-width: 767px) {
   .btn-block.btn-rounded {
     font: 600 18px/60px "Poppins", sans-serif;
+     font-display: swap;
   }
 }
 
@@ -357,6 +356,7 @@ li {
   border-radius: 0;
   box-shadow: none;
   font: 300 17px/24px "Poppins", sans-serif;
+   font-display: swap;
   padding: 12px 18px;
   height: 50px;
   border-color: #e0e8ee;
@@ -366,16 +366,19 @@ li {
 .form-control::-moz-placeholder {
   opacity: 1;
   font: 300 17px/24px "Poppins", sans-serif;
+   font-display: swap;
   color: #c0cad0;
 }
 
 .form-control:-ms-input-placeholder {
   font: 300 17px/24px "Poppins", sans-serif;
+   font-display: swap;
   color: #c0cad0;
 }
 
 .form-control::-webkit-input-placeholder {
   font: 300 17px/24px "Poppins", sans-serif;
+   font-display: swap;
   color: #c0cad0;
 }
 
