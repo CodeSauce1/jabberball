@@ -15,6 +15,7 @@ Rabbit.className="item";
 Pig.className="item";
 Dog.className="item";
 Basket.className="item";
+window.scrollTo(0,0);
 
 }else{
 	Tiger.className="item"
@@ -25,6 +26,7 @@ Rabbit.className="item";
 Pig.className="item";
 Dog.className="item active";
 Basket.className="item";
+window.scrollTo(0,0);
 }else{
 	Dog.className="item"
 }
@@ -35,6 +37,7 @@ Rabbit.className="item active";
 Pig.className="item";
 Dog.className="item";
 Basket.className="item";
+window.scrollTo(0,0);
 }else{
 	Rabbit.className="item"
 }
@@ -44,6 +47,7 @@ Rabbit.className="item";
 Pig.className="item active";
 Dog.className="item";
 Basket.className="item";
+window.scrollTo(0,0);
 }else{
 	Pig.className="item"
 }
