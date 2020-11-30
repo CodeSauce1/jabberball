@@ -172,7 +172,11 @@ li {
   color: #FFF;
   padding: 0 28px;
 }
-
+.price1{
+    color:#ff6723;
+        font: 600 19px/1 "Poppins", sans-serif;
+    margin: 14px 0 20px;
+}
 .btn-primary.btn-lg {
   padding: 0 85px;
   border-radius: 60px;

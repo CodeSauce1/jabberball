@@ -93,8 +93,8 @@
 <section class="row the-product" id=product>
 <div class=container>
 <div class="row section-header wow fadeInUp">
-<h2>Jabber Ball</h2>
-<p>Coming Soon!</p>
+<h2>Top Seller</h2>
+<p>Back In Stock!</p>
 </div>
 <div class="row apple-watch-note-feature text-center">
 <img src=images/apple-watch-2.webp alt>
@@ -156,7 +156,7 @@
 </div>
 <h4 class=title> Pig</h4>
 <h5 class=category>Jabber ball</h5>
-<h4 class=price>$14.99</h4>
+<h4 class=price1>$14.99</h4>
 <a href=#product-choose class=btn>Buy Now</a>
 </div>
 <div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay=1s>
@@ -165,7 +165,7 @@
 </div>
 <h4 class=title>Dog</h4>
 <h5 class=category>Jabber Ball</h5>
-<h4 class=price>$14.99</h4>
+<h4 class=price1>$14.99</h4>
 <a href=#product-choose class=btn>Buy Now</a>
 </div>
 <div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay=1.5s>
@@ -174,7 +174,7 @@
 </div>
 <h4 class=title>Tiger</h4>
 <h5 class=category>Jabber Ball</h5>
-<h4 class=price>$14.99</h4>
+<h4 class=price1>$14.99</h4>
 <a href=#product-choose class=btn>Buy Now</a>
 </div>
 <div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay=2s>
@@ -183,9 +183,51 @@
 </div>
 <h4 class=title>Rabbit</h4>
 <h5 class=category>Jabber Ball</h5>
+<h4 class=price1>$14.99</h4>
+<a href=#product-choose class=btn>Buy Now</a>
+</div>
+
+<!--pug-->
+<div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay=2.2s>
+<div class="row m0 featured-img">
+<img href=#product-choose src=images/apple-watch-2.webp style="width:90%; margin-top:30px;">
+</div>
+<h4 class=title>Pug</h4>
+<h5 class=category>Jabber Ball</h5>
+<h4 class=price>$15.99</h4>
+<a href=#product-choose class=btn>Buy Now</a>
+</div>
+<!--pink pig-->
+<div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay=2.5s>
+<div class="row m0 featured-img">
+<img href=#product-choose src=images/pig-pink.webp alt>
+</div>
+<h4 class=title>Pink Pig</h4>
+<h5 class=category>Jabber Ball</h5>
 <h4 class=price>$14.99</h4>
 <a href=#product-choose class=btn>Buy Now</a>
 </div>
+<!--bear-->
+<div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay=2.8s>
+<div class="row m0 featured-img">
+<img href=#product-choose src=images/bear.webp alt>
+</div>
+<h4 class=title>Bear</h4>
+<h5 class=category>Jabber Ball</h5>
+<h4 class=price>$14.99</h4>
+<a href=#product-choose class=btn>Buy Now</a>
+</div>
+<!--pig-mini-->
+<div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay=3s>
+<div class="row m0 featured-img">
+<img href=#product-choose src=images/mini-pig.jpg alt>
+</div>
+<h4 class=title>Mini Pig</h4>
+<h5 class=category>Jabber Ball</h5>
+<h4 class=price>$10.00</h4>
+<a href=#product-choose class=btn>Buy Now</a>
+</div>
+<!--end-->
 </div>
 </div>
 </section>
@@ -255,13 +297,17 @@ Knowing that- I hope I don't get evicted for attempting to record a squeak symph
 <li data-target=#product-imgs data-slide-to=2></li>
 <li data-target=#product-imgs data-slide-to=3></li>
 <li data-target=#product-imgs data-slide-to=4></li>
+<li data-target=#product-imgs data-slide-to=5></li>
+<li data-target=#product-imgs data-slide-to=6></li>
+<li data-target=#product-imgs data-slide-to=7></li>
+<li data-target=#product-imgs data-slide-to=8></li>
 </ol>
 <div class=carousel-inner role=listbox>
 <div id=basket class="item active">
-<img data-target=#product-imgs data-slide-to=1 src=images/basket.webp loading=lazy alt=watch-1>
+<img data-target=#product-imgs data-slide-to=1 src=images/basket.jfif loading=lazy alt=watch-1>
 </div>
 <div id=tiger class=item>
-<img data-target=#product-imgs data-slide-to=2 src=images/tiger1.webp loading=lazy alt=watch-2>
+<img data-target=#product-imgs data-slide-to=2 src=images/tiger.webp loading=lazy alt=watch-2>
 </div>
 <div id=rabbit class=item>
 <img data-target=#product-imgs data-slide-to=3 src=images/rabbit1.webp loading=lazy alt=watch-3>
@@ -270,7 +316,19 @@ Knowing that- I hope I don't get evicted for attempting to record a squeak symph
 <img data-target=#product-imgs data-slide-to=4 src=images/pig1.webp loading=lazy alt=watch-4>
 </div>
 <div id=dog class=item>
-<img data-target=#product-imgs data-slide-to=0 src=images/dog1.webp loading=lazy alt=watch-5>
+<img data-target=#product-imgs data-slide-to=5 src=images/dog1.webp loading=lazy alt=watch-5>
+</div>
+<div id=pug class=item>
+<img data-target=#product-imgs data-slide-to=6 src=images/pug1.webp loading=lazy alt=watch-4>
+</div>
+<div id=pinkpig class=item>
+<img data-target=#product-imgs data-slide-to=7 src=images/pig-pink.webp loading=lazy alt=watch-4>
+</div>
+<div id=bear class=item>
+<img data-target=#product-imgs data-slide-to=8 src=images/bear.webp loading=lazy alt=watch-4>
+</div>
+<div id=minipig class=item>
+<img data-target=#product-imgs data-slide-to=0 src=images/mini-pig.JPG loading=lazy alt=watch-4>
 </div>
 </div>
 </div>
@@ -283,7 +341,7 @@ Knowing that- I hope I don't get evicted for attempting to record a squeak symph
 <h4 class=name>Toy/Stress Toy</h4>
 <h2 class=edition>Jabber Ball</h2>
 <h5 class=model></h5>
-<h2 class=price><del>$20</del>$14.99 <span class="label label-default">Sale! ending soon</span></h2>
+<h2 class="price"><del>$20</del><div class="pain" id"more">$14.99</div> <span class="label label-default">Sale! ending soon</span></h2>
 <div class="row m0 description">
 <p>Squeeze these adorable critters and they will stick out their tongue and jibber-jabber!</p>
 </div>
@@ -301,8 +359,12 @@ Knowing that- I hope I don't get evicted for attempting to record a squeak symph
 <select class=selectpicker name=os0>
 <option value=Tiger>Tiger </option>
 <option value=Rabbit>Rabbit </option>
-<option value=Pig>Pig </option>
+<option value="Purple Pig">Purple Pig</option>
 <option value=Dog>Dog</option>
+<option value=Pug>Pug</option>
+<option value="Pink Pig">Pink Pig</option>
+<option value=Bear>Bear</option>
+<option value="Mini Pig">Mini Pig</option>
 </select>
 </div>
 </div>
