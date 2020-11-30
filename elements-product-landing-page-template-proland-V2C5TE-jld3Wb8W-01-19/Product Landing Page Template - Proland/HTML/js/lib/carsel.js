@@ -25,6 +25,7 @@ pinkpig.className="item"
 minipig.className="item"
 bear.className="item"
 Basket.className="item";
+price.innerText="14.99";
 element.scrollIntoView();
 
 }else{
@@ -40,6 +41,7 @@ pinkpig.className="item"
 minipig.className="item"
 bear.className="item"
 Basket.className="item";
+price.innerText="14.99";
 element.scrollIntoView();
 }else{
 	Dog.className="item";
@@ -55,6 +57,7 @@ pinkpig.className="item"
 minipig.className="item"
 bear.className="item"
 Basket.className="item";
+price.innerText="14.99";
 element.scrollIntoView();
 }else{
 	Rabbit.className="item";
@@ -69,6 +72,7 @@ pinkpig.className="item";
 minipig.className="item";
 bear.className="item";
 Basket.className="item";
+price.innerText="14.99";
 element.scrollIntoView();
 }else{
 	Pig.className="item";
@@ -84,6 +88,7 @@ pinkpig.className="item active";
 minipig.className="item";
 bear.className="item";
 Basket.className="item";
+price.innerText="14.99";
 element.scrollIntoView();
 }else{
 	pinkpig.className="item";
@@ -100,6 +105,7 @@ minipig.className="item";
 bear.className="item active";
 Basket.className="item";
 element.scrollIntoView();
+price.innerText="14.99";
 }else{
 	bear.className="item";
 }
@@ -118,7 +124,6 @@ price.innerText="10.00";
 element.scrollIntoView();
 }else{
 	minipig.className="item";
-	price.innerText="14.99";
 }
 if(selectElement.value=="Pug"){
 Tiger.className="item";
@@ -134,7 +139,7 @@ price.innerText="15.99";
 element.scrollIntoView();
 }else{
 	pug.className="item";
-	price.innerText="14.99";
+
 }
 
 
