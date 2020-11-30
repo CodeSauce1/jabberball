@@ -13,7 +13,7 @@ let pug=document.getElementById('pug')
 let bear=document.getElementById('bear')
 let Basket=document.getElementById('basket')
 let element = document.getElementById("product-imgs");
-
+ 
 selectElement.addEventListener('change', (event) => {
 if(selectElement.value=="Tiger"){
 Tiger.className="item active";
