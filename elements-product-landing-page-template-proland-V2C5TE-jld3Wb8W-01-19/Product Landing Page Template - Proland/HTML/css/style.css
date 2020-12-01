@@ -807,6 +807,7 @@ textarea.form-control {
 
 .top-banner {
   padding-top: 190px;
+
 }
 
 @media (max-width: 767px) {
@@ -923,6 +924,16 @@ textarea.form-control {
 header.row {
   background: url(../images/header-background.webp) no-repeat scroll center bottom;
   background-size: auto;
+  background-color:#ff6b8f;
+  z-index:2;
+}
+@media (min-width: 1400px) {
+  header.row {
+    background: url("") no-repeat scroll center bottom;
+     background-size: auto;
+  background-color:#ff6b8f;
+  z-index:2;
+  }
 }
 
 header.alt-bg {
